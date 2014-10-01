@@ -1,5 +1,17 @@
 public class Voiture {
 
+    public void setNbRoues(int nbRoues) {
+        this.nbRoues = nbRoues;
+    }
+
+    public String getCouleur() {
+        return couleur;
+    }
+
+    public int getNbRoues() {
+        return nbRoues;
+    }
+
     public Voiture() {
         couleur = "gris";
         nbRoues = 4;
