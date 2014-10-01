@@ -1,6 +1,8 @@
 public class Voiture {
 
     public Voiture() {
+        couleur = "gris";
+        nbRoues = 4;
     }
 
     public Voiture(String couleur, int nbRoues) {
