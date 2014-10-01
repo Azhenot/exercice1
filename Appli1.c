@@ -5,7 +5,7 @@ int main()
 {
     printf("Bonjour, voici mon fichier C\n");
     int x = 0;
-    while(x != 1 && x != 2 && x!= 3 && x != 4)
+    while(x < 1 || x > 4)
     {
         printf("Voulez-vous fair eune somme(1), une soustraction(2), une multiplication(3), une division(4)?");
         scanf("%d",&x);
