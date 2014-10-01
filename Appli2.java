@@ -12,4 +12,9 @@ public class Voiture {
     
     String couleur;
     int nbRoues;  
+    
+    public void changerCouleur(String couleur)    
+    {
+        this.couleur = couleur;
+    }
 }
